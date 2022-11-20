@@ -1,0 +1,5 @@
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\obj\Debug\net6.0\Program.cs.csproj.AssemblyReference.cache
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\obj\Debug\net6.0\Program.cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\obj\Debug\net6.0\Program.cs.AssemblyInfoInputs.cache
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\obj\Debug\net6.0\Program.cs.AssemblyInfo.cs
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\obj\Debug\net6.0\Program.cs.csproj.CoreCompileInputs.cache
