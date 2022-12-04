@@ -1,150 +1,37 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 
-/* Задача 34: Задайте массив заполненный случайными положительными трёхзначными числами. Напишите программу, которая покажет количество чётных чисел в массиве.
-[345, 897, 568, 234] -> 2  */
-int size = ReadInt("Введите размерность массива: ");
-int [] numbers = new int[size];
-
-FillArrayRandomNumbers(numbers);
-PrintArray(numbers);
-int result = 0;
-
-for (int i = 0; i < numbers.Length; i++)
-{
-    if (numbers[i] % 2 == 0)
-    {
-        result++;
-    }
-}
-if (result % 10 == 1)
-{
-    Console.WriteLine($"В массиве {result} четное число");
-}
-if (result % 10 == 2 || result % 10 == 3 || result % 10 == 4)
-{
-    Console.WriteLine($"В массиве {result} четных числа");
-}
-else
-
-    Console.WriteLine($"В массиве {result} четных чисел");
-
-// Методы
-void FillArrayRandomNumbers(int [] array) //Заполнение массива
-{
-    for (int i = 0; i < array.Length; i++)
-    {
-        array[i] = new Random().Next(99, 999);
-    }
-}
-
-void PrintArray(int[] array) //Вывод массива на экран
-{
-    for (int i = 0; i < array.Length; i++)
-    {
-        Console.Write(array[i] + " ");
-    }
-    Console.WriteLine();
-}
+// Задача 41: Пользователь вводит с клавиатуры M чисел в одну линию 
+// (не используем Enter). Числа разделены пробелами. 
+//Посчитайте, сколько чисел больше 0 ввёл пользователь.
+//0 7 8 -2 -2 -> 2
+//1 -7 567 89 223-> 4
 
 
-int ReadInt(string message)  //Функция ввода
-{
-    Console.Write(message);
-    return Convert.ToInt32(Console.ReadLine());
-}
+Console.Write("Введите элементы(через пробел): ");
+int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+int count = arr.Count(x => x > 0);
+Console.WriteLine($"Кол-во элементов > 0: {count}");
 
-/* Задача 36: Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечётных позициях.
-[3, 7, 23, 12] -> 19   [-4, -6, 89, 6] -> 0 */
+// Задача 43: Напишите программу, которая найдёт точку пересечения двух прямых, 
+// заданных уравнениями y = k1 * x + b1, y = k2 * x + b2; значения b1, k1, b2 и k2 
+// задаются пользователем.
+// b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5)
 
-int size = ReadInt("Введите размерность массива: ");
-int min = ReadInt("Введите минимальное число массива: ");
-int max = ReadInt("Введите максимальное число массива: ");
-int [] numbers = new int[size];
-
-FillArrayRandomNumbers(numbers);
-PrintArray(numbers);
-int result = 0;
-
-for (int i = 0; i < numbers.Length; i++)
-{
-    if (i % 2 != 0)
-    {
-        result += numbers[i];
-    }
-}
-Console.WriteLine($"Сумма элементов нечетных позиций = {result}");
-
-// Методы
-void FillArrayRandomNumbers(int [] array) //Заполнение массива
-{
-    for (int i = 0; i < array.Length; i++)
-    {
-        array[i] = new Random().Next(min, max);
-    }
-}
-
-void PrintArray(int[] array) //Вывод массива на экран
-{
-    for (int i = 0; i < array.Length; i++)
-    {
-        Console.Write(array[i] + " ");
-    }
-    Console.WriteLine();
-}
-
-int ReadInt(string message)  //Функция ввода
-{
-    Console.Write(message);
-    return Convert.ToInt32(Console.ReadLine());
-}
-
-/* Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементами массива.
-[3,21 7,04 22,93 -2,71 78,24] -> 80,95  */
-int size = ReadInt("Введите размерность массива: ");
-int min = ReadInt("Введите минимальное число массива: ");
-int max = ReadInt("Введите максимальное число массива: ");
-int [] numbers = new int[size];
-
-FillArrayRandomNumbers(numbers);
-PrintArray(numbers);
-
-int maxFillarray = numbers[0];
-int minFillarray = numbers[0];
-
-for (int i = 0; i < numbers.Length; i++)
-{
-    if (numbers[i] > maxFillarray)
-    {
-        maxFillarray = numbers[i];
-    }
-    if (numbers[i] < minFillarray)
-    {
-        minFillarray = numbers[i];
-    }
-}
-Console.WriteLine($"Разница между максимальным и минимальным числом = {maxFillarray - minFillarray}");
-
-// Методы
-void FillArrayRandomNumbers(int [] array) //Заполнение массива
-{
-    for (int i = 0; i < array.Length; i++)
-    {
-        array[i] = new Random().Next(min, max);
-    }
-}
-
-void PrintArray(int[] array) //Вывод массива на экран
-{
-    for (int i = 0; i < array.Length; i++)
-    {
-        Console.Write(array[i] + " ");
-    }
-    Console.WriteLine();
-}
-
-int ReadInt(string message)  //Функция ввода
-{
-    Console.Write(message);
-    return Convert.ToInt32(Console.ReadLine());
-}
+Console.Write("Введите k1: ");
+var k1 = Convert.ToDouble(Console.ReadLine());
+Console.Write("Введите b1: ");
+var b1 = Convert.ToDouble(Console.ReadLine());
+Console.Write("Введите k2: ");
+var k2 = Convert.ToDouble(Console.ReadLine());
+Console.Write("Введите b2: ");
+var b2 = Convert.ToDouble(Console.ReadLine());
+ 
+ 
+var x = -(b1 - b2) / (k1 - k2);
+var y = k1 * x + b1;
+ 
+x = Math.Round(x, 3);
+y = Math.Round(y, 3);
+ 
+Console.WriteLine($"Пересечение в точке: ({x};{y})");
