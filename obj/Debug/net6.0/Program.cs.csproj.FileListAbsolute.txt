@@ -3,3 +3,13 @@ C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\obj\Debug
 C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\obj\Debug\net6.0\Program.cs.AssemblyInfoInputs.cache
 C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\obj\Debug\net6.0\Program.cs.AssemblyInfo.cs
 C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\obj\Debug\net6.0\Program.cs.csproj.CoreCompileInputs.cache
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\bin\Debug\net6.0\Program.cs.exe
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\bin\Debug\net6.0\Program.cs.deps.json
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\bin\Debug\net6.0\Program.cs.runtimeconfig.json
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\bin\Debug\net6.0\Program.cs.dll
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\bin\Debug\net6.0\Program.cs.pdb
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\obj\Debug\net6.0\Program.cs.dll
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\obj\Debug\net6.0\refint\Program.cs.dll
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\obj\Debug\net6.0\Program.cs.pdb
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\obj\Debug\net6.0\Program.cs.genruntimeconfig.cache
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\obj\Debug\net6.0\ref\Program.cs.dll
