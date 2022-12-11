@@ -1,0 +1,15 @@
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\.vscode\Summ\bin\Debug\net6.0\Summ.exe
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\.vscode\Summ\bin\Debug\net6.0\Summ.deps.json
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\.vscode\Summ\bin\Debug\net6.0\Summ.runtimeconfig.json
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\.vscode\Summ\bin\Debug\net6.0\Summ.dll
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\.vscode\Summ\bin\Debug\net6.0\Summ.pdb
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\.vscode\Summ\obj\Debug\net6.0\Summ.csproj.AssemblyReference.cache
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\.vscode\Summ\obj\Debug\net6.0\Summ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\.vscode\Summ\obj\Debug\net6.0\Summ.AssemblyInfoInputs.cache
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\.vscode\Summ\obj\Debug\net6.0\Summ.AssemblyInfo.cs
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\.vscode\Summ\obj\Debug\net6.0\Summ.csproj.CoreCompileInputs.cache
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\.vscode\Summ\obj\Debug\net6.0\Summ.dll
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\.vscode\Summ\obj\Debug\net6.0\refint\Summ.dll
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\.vscode\Summ\obj\Debug\net6.0\Summ.pdb
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\.vscode\Summ\obj\Debug\net6.0\Summ.genruntimeconfig.cache
+C:\Users\Ключевский Сергей\Documents\GitHub\Program.cs\.vscode\Summ\obj\Debug\net6.0\ref\Summ.dll
